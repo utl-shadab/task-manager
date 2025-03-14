@@ -31,7 +31,7 @@ const TaskForm = () => {
       }}>
       <TextField fullWidth label="New Task" value={text} onChange={(e) => setText(e.target.value)} required />
       <TextField fullWidth type="date" value={date} onChange={(e) => setDate(e.target.value)} required />
-      <Button type="submit" variant="contained" sx={{ px: 10 , py: { xs: 1, sm: 2 } }}> Add</Button>
+      <Button type="submit" variant="contained" sx={{ px: 10 , py: { xs: 1, sm: 2 } }}> Add+</Button>
     </Box>
   );
 };
